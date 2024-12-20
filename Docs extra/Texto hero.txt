@@ -1,0 +1,13 @@
+Soy un desarrollador full-stack apasionado por crear soluciones digitales innovadoras y personalizadas.
+Ofrezco una solución completa de principio a fin para la creación de sitios web, transformando ideas en experiencias web impactantes al combinar diseño funcional y desarrollo técnico para entregar proyectos únicos adaptados a tus necesidades.
+Utilizo tecnologías como HTML, CSS, JavaScript, React y React Native para construir aplicaciones web y móviles rápidas, dinámicas y responsivas. Además, desarrollo videojuegos con Unity y C#, ofreciendo experiencias interactivas y atractivas.
+Gracias a mi experiencia en bases de datos como MySQL y PostgreSQL, garantizo que tus proyectos cuenten con una estructura sólida y escalable.
+Ya sea que busques un sitio web moderno, una aplicación móvil multiplataforma o un videojuego que atrape a los usuarios, estoy aquí para ayudarte a materializar tu visión con soluciones tecnológicas creativas y efectivas.
+
+
+
+
+
+Hello!
+I'm Nico Renaldo
+A software engineer specialized in web development and machine learning, focused on building creative and scalable solutions
