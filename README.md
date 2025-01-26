@@ -25,12 +25,12 @@ Designed to showcase my skills, projects, and contact information in a clean and
 
 ### Homepage
 <p align="center">
-  <img src="./IMG/home.png" alt="Homepage Screenshot" title="Homepage" width="800" />
+  <img src="./IMG/icons/home.png" alt="Homepage Screenshot" title="Homepage" width="800" />
 </p>
 
 ### Skills Section
 <p align="center">
-  <img src="./IMG/skills.png" alt="Skills Section Screenshot" title="Skills Section" width="800" />
+  <img src="./IMG/icons/skills.png" alt="Skills Section Screenshot" title="Skills Section" width="800" />
 </p>
 
 ---
