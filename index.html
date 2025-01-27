@@ -20,9 +20,6 @@
         rel="stylesheet">
 
 
-    <!--ANIMACION AOS-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <!-- EMAILJS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
@@ -57,14 +54,14 @@
 
     <!--Hero-->
     <section class="hero" id="home">
-        <div class="main-content" data-aos="fade-in">
+        <div class="main-content">
             <h1>IVAN NAHARRO</h1>
             <p>A software developer specialized in web, mobile app's and video-games development, focused on building
                 creative and scalable solutions</p>
 
             <div class="social">
                 <a href="https://github.com/ivannj"><i class="ri-github-fill"></i></a>
-                <a href="https://www.linkedin.com/in/ivan-naharro-311662187/"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://www.linkedin.com/in/ivan-nj/"><i class="ri-linkedin-box-fill"></i></a>
                 <a href="https://www.facebook.com/ivannaharrojimenez"><i class="ri-facebook-circle-fill"></i></a>
             </div>
 
@@ -110,11 +107,11 @@
     <!--Skills-->
 
     <section class="skills" id="skills">
-        <div class="center-text" data-aos="fade-down">
+        <div class="center-text">
             <h2>Skills</h2>
         </div>
 
-        <div class="skills-list" data-aos="zoom-in-up">
+        <div class="skills-list">
 
             <!-- *** Languages TITLE*** -->
 
@@ -343,61 +340,37 @@
 
     <!--Projects-->
     <section class="projects" id="projects">
-        <div class="center-text" data-aos="fade-down">
+        <div class="center-text">
             <h2>Projects</h2>
         </div>
 
-        <div class="projects-content" data-aos="zoom-in-up">
+        <div class="projects-content">
             <div class="row-projects">
-                <img src="IMG/Project_!.png">
+                <img src="IMG/icons/home.brivify.png">
                 <div class="main-row">
                     <div class="row-text">
-                        <h5>Italian Restaurant</h5>
-                    </div>
-                    <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <h5>Brivify Rental Cars</h5>
                     </div>
                 </div>
-                <h4>Web para restaurante italiano con servicio de reservas. Hecho con HTML, CSS, TailWindCSS.</h4>
+                <h4>Ecommerce for Rental Cars. Built with NextJS, TypeScript, React, TailwindCSS, PostgreSQL database, and Stripe.</h4>
+                <div class="project-buttons">
+                    <a href="https://brivify-rental-cars-ivan-naharro.vercel.app" target="_blank" class="project-btn">View Website</a>
+                    <a href="https://github.com/Ivannj/Ecom-RentalCars" target="_blank" class="project-btn">GitHub</a>
+                </div>
             </div>
-
+        
             <div class="row-projects">
                 <img src="IMG/Project_2.png">
                 <div class="main-row">
                     <div class="row-text">
-                        <h5>Hangman game</h5>
-                    </div>
-                    <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <h5>Hangman Game</h5>
                     </div>
                 </div>
                 <h4>Juego Hangman interactivo. Hecho con HTML, CSS, Javascript.</h4>
-            </div>
-
-            <div class="row-projects">
-                <img src="IMG/Project_3.png">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>App Mobile</h5>
-                    </div>
-                    <div class="row-icon">
-                        <i class="ri-github-fill"></i>
-                    </div>
+                <div class="project-buttons">
+                    <a href="https://example-game.com" target="_blank" class="project-btn">View Website</a>
+                    <a href="https://github.com/ivannj/hangman-game" target="_blank" class="project-btn">GitHub</a>
                 </div>
-                <h4>App para movil. Hecho con JS y React.</h4>
-            </div>
-
-            <div class="row-projects">
-                <img src="IMG/Project_4.png">
-                <div class="main-row">
-                    <div class="row-text">
-                        <h5>Juego multiplataforma para PC y Movil.</h5>
-                    </div>
-                    <div class="row-icon">
-                        <i class="ri-github-fill"></i>
-                    </div>
-                </div>
-                <h4>Juego de simulador de Ski. Hecho con C# y Unity.</h4>
             </div>
         </div>
     </section>
@@ -406,7 +379,7 @@
     <section class="contact" id="contact">
         <div class="contact-container">
 
-            <div class="about-rectangle" data-aos="fade-right">
+            <div class="about-rectangle">
                 <h2>About <span>Me</span></h2>
                 <p>Address: Brisbane, Australia | Barcelona, Spain</p>
                 <p>Email: ivannhrro@gmail.com</p>
@@ -415,7 +388,7 @@
             </div>
 
             <div class="contact-form">
-                <div class="form-rectangle" data-aos="fade-left">
+                <div class="form-rectangle">
                     <h2>Contact <span>Me</span></h2>
                     <form id="contact-form">
                         <input type="text" name="user_name" placeholder="Your name" required>
@@ -447,17 +420,6 @@
 
 
     <script src="js/App.js"></script>
-
-    <!--Script de AOS-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 300,
-            duration: 1400,
-            once: false
-
-        });
-    </script>
 
 </body>
 

@@ -718,35 +718,27 @@ header.sticky {
 }
 
 .row-projects h5 {
-    font-size: 1rem;
-    /* 16px -> rem */
-    font-weight: 500;
-    margin: 0;
-    /* Elimina márgenes innecesarios */
-}
-
-.row-projects i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3.125rem;
-    /* 50px -> rem */
-    height: 3.125rem;
-    /* 50px -> rem */
-    font-size: 1.0625rem;
-    /* 17px -> rem */
-    border-radius: 50%;
-    color: var(--second-bg-color);
-    background: var(--main-color);
+    font-size: 1.5rem;
+    /* Tamaño aumentado */
+    font-weight: 700;
+    /* Más negrita */
+    margin-bottom: 0.5rem;
+    /* Separación inferior */
+    color: var(--main-color);
+    text-align: left;
 }
 
 .row-projects h4 {
-    font-size: 1.125rem;
-    /* 18px -> rem */
-    font-weight: 600;
-    margin-bottom: 0.3125rem;
-    /* 5px -> rem */
-    line-height: 1.4;
+    font-size: 1rem;
+    /* Tamaño reducido */
+    font-weight: 400;
+    /* Peso normal */
+    margin-bottom: 1rem;
+    /* Espaciado inferior aumentado */
+    line-height: 1.6;
+    /* Mejor separación entre líneas */
+    color: var(--other-color);
+    text-align: justify;
 }
 
 .row-projects:hover {
@@ -755,6 +747,32 @@ header.sticky {
     transform: translateY(-0.3125rem) scale(1.03);
     /* -5px -> rem */
     cursor: pointer;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 0.5rem; 
+    margin-top: 1rem;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bg-color);
+    background: var(--main-color);
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.project-btn:hover {
+    background: var(--text-color);
+    transform: scale(1.05);
 }
 
 /************************ SECCION CONTACT ME ************************/
@@ -1272,12 +1290,6 @@ header.sticky {
 
 @media (max-width: 896px) and (max-height: 414px) and (orientation: landscape) {
     /* Ajustes para iPhone 11 Pro Max en landscape */
-
-    [data-aos] {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-    }
     .navlist {
         gap: 1rem; /* Reduce el espacio entre los ítems (20px -> 1rem) */
     }
@@ -1491,11 +1503,6 @@ header.sticky {
 
 @media (max-width: 736px) and (max-height: 414px) and (orientation: landscape) {
 
-    [data-aos] {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-    }
     .navlist {
         gap: 1rem; /* Reduce el espacio entre los ítems (20px -> 1rem) */
     }
@@ -1708,12 +1715,6 @@ header.sticky {
 }
 
 @media (max-width: 667px) and (max-height: 375px) and (orientation: landscape) {
-
-    [data-aos] {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-    }
 
     .navlist {
         gap: 0.75rem; /* Reduce el espacio entre los ítems */
